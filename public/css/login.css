@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+    background: rgb(109,46,73);
+    background: radial-gradient(circle, rgba(109,46,73,1) 0%, rgba(17,51,91,1) 71%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:100vh;
+
+}
+.container{
+
+    width:400px;
+    height:500px;
+    background-color: rgba(240,255,255,0.3);
+    background: linear-gradient(to bottom right, rgba(112, 109, 110, 0.3) 40%, rgba(159, 162, 165, 0.3) 60%);
+    border-radius: 20px;
+    /* opacity: 0.2; */
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.container p{
+    color: rgb(7, 250, 153);
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0cqmax;
+    transition: 0.3s ease;
+
+}
+#avatar{
+    display: inline-block;
+    text-align: center;
+    font-size: 100px;
+    z-index: 1;
+    color:white;
+    width:110px;
+    height: 110px;
+    padding: 10px;
+    background-color: rgb(167, 162, 169);
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+}
+
+.unamebox{
+
+    margin-top: 20px;
+    width:90%;
+    background-color: aliceblue;
+    height:40px;
+    display: flex;
+    align-items: center;
+    /* line-height: 40px; */
+
+}
+.unamebox i{
+width: 10%;
+background-color: rgb(216, 222, 221);
+color: rgb(131, 124, 124);
+height: 40px;
+line-height: 40px;
+text-align: center;
+}
+.unamebox input{
+
+    width: 88%;
+    height: 39px;
+    border: none;
+    outline: none;
+    line-height: 40px;
+    padding-left: 10px;
+    color: black;
+    font-size: 18px;
+
+}
+input[type=submit]{
+
+    width:200px;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(18, 18, 56);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+}
